@@ -1,22 +1,8 @@
-# System packages for Streamlit Community Cloud
-# These are installed via apt-get before Python packages
-
-# Tesseract OCR engine (required for image/scan text extraction)
 tesseract-ocr
-
-# Common language packs for OCR
 tesseract-ocr-eng
-tesseract-ocr-osd
-
-# Additional language support (uncomment as needed):
-# tesseract-ocr-spa    # Spanish
-# tesseract-ocr-fra    # French
-# tesseract-ocr-deu    # German
-# tesseract-ocr-chi-sim  # Chinese Simplified
-# tesseract-ocr-ara    # Arabic
-
-# PDF utilities
 poppler-utils
-
-# Image libraries
 libglib2.0-0
+libsm6
+libxrender1
+libxext6
+ffmpeg
