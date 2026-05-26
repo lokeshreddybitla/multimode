@@ -1,0 +1,41 @@
+# ============================================================
+# DocuMind AI — Requirements
+# Streamlit Community Cloud compatible
+# ============================================================
+
+# ── Core Framework ──────────────────────────────────────────
+streamlit>=1.35.0
+
+# ── Google Gemini AI ────────────────────────────────────────
+google-generativeai>=0.7.0
+
+# ── Document Processing ─────────────────────────────────────
+pdfplumber>=0.10.0
+python-docx>=1.1.0
+
+# ── Image Processing & OCR ──────────────────────────────────
+Pillow>=10.0.0
+pytesseract>=0.3.10
+opencv-python-headless>=4.9.0
+
+# ── Data & Visualization ────────────────────────────────────
+pandas>=2.0.0
+plotly>=5.18.0
+numpy>=1.24.0
+
+# ── Vector Embeddings & RAG ─────────────────────────────────
+# Note: These are optional — app falls back to keyword search if unavailable
+# Uncomment for full semantic search (increases deploy size):
+# sentence-transformers>=2.7.0
+# faiss-cpu>=1.7.4
+
+# ── PDF Export ──────────────────────────────────────────────
+reportlab>=4.0.0
+# fpdf2>=2.7.0        # Alternative PDF export library
+
+# ── Security & Utilities ─────────────────────────────────────
+python-dotenv>=1.0.0
+
+# ── Optional: LangChain integration ─────────────────────────
+# langchain>=0.2.0
+# langchain-google-genai>=1.0.0
